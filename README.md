@@ -6,7 +6,9 @@ In this example, the flow cytometry analyses were performed with and data export
 The script retrieves the percentage of the gated Bu-1 positive cells by searching any line in the cytometry output file containing the name of this gate (“Bu1_Pos”), and extracting the next column value (in this example 98.5%). 
 
 WT_NT_Tube_001.fcs	NA	20879
+
 WT_NT_Tube_001.fcs/Single_cells	50.4	10519
+
 WT_NT_Tube_001.fcs/Single_cells /Bu1_Pos	98.5	10363
 
 If the name of the gate (“Bu1_Pos”) has been changed, this must also be amended within the script in the custom parameters section 
