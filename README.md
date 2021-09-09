@@ -5,7 +5,6 @@ Preparation of files and running the script.
 In this example, the flow cytometry analyses were performed with and data exported from FlowJo® (Becton Dickinson) as an Excel (.xlsx) file. However, only the layout of the data matters in running the script, thus any flow cytometry software can be used for analysis. 
 The script retrieves the percentage of the gated Bu-1 positive cells by searching any line in the cytometry output file containing the name of this gate (“Bu1_Pos”), and extracting the next column value (in this example 98.5%). 
 
- 	%	#Cells
 WT_NT_Tube_001.fcs	NA	20879
 WT_NT_Tube_001.fcs/Single_cells	50.4	10519
 WT_NT_Tube_001.fcs/Single_cells /Bu1_Pos	98.5	10363
